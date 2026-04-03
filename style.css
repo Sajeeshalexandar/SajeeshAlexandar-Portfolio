@@ -881,7 +881,7 @@ section {
     }
 
     .about {
-        padding-top: 4rem;
+        padding-top: 8rem;
     }
 
     .about-content h2 {
@@ -926,11 +926,11 @@ section {
     }
 
     .projects {
-        padding-top: 4rem;
+        padding-top: 6rem;
     }
 
     .projects .heading {
-        font-size: 5rem;
+        font-size: 4rem;
     }
 
     .project-box {

@@ -854,18 +854,18 @@ section {
     }
 
     .navbar {
-        width: 50vw;
+        width: 55vw;
 
     }
 
     .home {
         width: 100vw;
-        padding-top: 5rem;
+        padding-top: 8rem;
         gap: 2rem;
     }
 
     .home-content h1 {
-        font-size: 3rem;
+        font-size: 3.3rem;
     }
 
     .home-content h3 {
@@ -873,15 +873,15 @@ section {
     }
 
     .home-content p {
-        font-size: 1rem;
+        font-size: 1.7rem;
     }
 
     .social-icons>a {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .about {
-        padding-top: 8rem;
+        padding-top: 10rem;
     }
 
     .about-content h2 {
@@ -898,7 +898,7 @@ section {
     }
 
     .services {
-        padding-top: 4rem;
+        padding-top: 6rem;
     }
 
     .services .heading {
@@ -926,7 +926,7 @@ section {
     }
 
     .projects {
-        padding-top: 6rem;
+        padding-top: 8rem;
     }
 
     .projects .heading {
@@ -939,7 +939,7 @@ section {
     }
 
     .contact {
-        padding-top: 4rem;
+        padding-top: 8rem;
     }
 
     .contact .heading {

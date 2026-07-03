@@ -643,6 +643,9 @@ section {
     animation: shake linear infinite 5s;
 
 }
+.project-card .btn a{
+    text-decoration : none;
+}
 
 .project-card .btn:hover {
     color: var(--text-color);

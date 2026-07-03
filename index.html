@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="description"
+        content="Sajeesh Alexandar - Web Developer portfolio featuring projects built with HTML, CSS, JavaScript, React, Python and Django.">
+    <title>Sajeesh Alexandar | Web Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +16,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
 </head>
 
 <body>
@@ -23,7 +23,7 @@
         <a href="#home" class="logo">
             Sajeesh<span>Alexandar</span>
         </a>
-        <i class="fa-solid fa-bars" id="menu-bar"></i>
+        <i class="fa-solid fa-bars" id="menu-bar" role="button" tabindex="0" aria-label="Toggle navigation menu"></i>
         <nav class="navbar" id="navbar1">
             <a href="#home" id="home1">Home</a>
             <a href="#about1" id="about">About</a>
@@ -31,52 +31,172 @@
             <a href="#projects1" id="projects">Projects</a>
             <a href="#contact1" id="contact">Contact</a>
         </nav>
-        <button class="gradient-btn">Contact me</button>
+        <button class="gradient-btn"><a href="#contact1">Contact me</a></button>
     </header>
 
     <section class="home" id="home">
         <div class="home-content">
             <h1>Hi, It's <span>Sajeesh</span></h1>
             <h3>I'm a <span>Web Developer</span></h3>
-            <p>I create responsive & dynamic websites for the clients neatly and effectively and also help them for
-                there digital advertising.
+            <p>I build responsive, modern, and user-friendly websites that help businesses establish a strong online
+                presence and achieve their digital goals.
             </p>
             <div class="social-icons">
-                <a href="https://github.com/Sajeeshalexandar" target="_blank">
+                <a href="https://github.com/Sajeeshalexandar" target="_blank" rel="noopener noreferrer"
+                    aria-label="GitHub">
                     <i class="fa-brands fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/sajeesh-alexandar-s-a-1a057a30a" target="_blank">
+                <a href="https://www.linkedin.com/in/sajeesh-alexandar-s-a-1a057a30a" target="_blank"
+                    rel="noopener noreferrer" aria-label="LinkedIn">
                     <i class="fa-brands fa-linkedin"></i>
                 </a>
-                <a href="https://www.instagram.com/_zatrix_/" target="_blank">
+                <a href="https://www.instagram.com/_zatrix_/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Instagram">
                     <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="https://x.com/a_sajeesh69241" target="_blank">
+                <a href="https://x.com/a_sajeesh69241" target="_blank" rel="noopener noreferrer"
+                    aria-label="Twitter / X">
                     <i class="fa-brands fa-twitter"></i>
                 </a>
-                <div class="btn-group">
-                    <a href="#projects1" class="btn">Hire</a>
-                    <a href="#contact" class="btn">Contact</a>
-
-                </div>
+            </div>
+            <div class="btn-group">
+                <a href="#projects1" class="btn">View Projects</a>
+                <a href="#contact1" class="btn">Contact</a>
             </div>
         </div>
         <div class="home-image">
-            <img class="h-img" src="zatrix.jpg" alt="">
+            <img class="h-img" src="zatrix.jpg" alt="Portrait of Sajeesh Alexandar">
         </div>
     </section>
 
     <section class="about" id="about1">
         <div class="about-img">
-            <img src="zatrix.jpg" alt="">
+            <img src="zatrix.jpg" alt="Sajeesh Alexandar working">
         </div>
         <div class="about-content">
             <h2>About <span>Me</span></h2>
-            <p>Hello guys i am a Btech student who pursuing Computer science and engineering.I have learned some skills
-                such as Python | Java Foundation | C program | SQL | Html | CSS | Javascript | Git & Github | AI tools
-                etc... and currently gaining exposure in python full-stack development course.I like to work as a
-                full-stack Developer and collabrate with new techies</p>
-            <button class="btn">Readmore</button>
+            <p>I'm a Computer Science and Engineering student passionate about full-stack web development. I enjoy
+                building modern web applications using Python, JavaScript, React, SQL, Git, and Django while
+                continuously learning new technologies.</p>
+            <a href="#projects1" class="btn">View Projects</a>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-wrapper">
+
+            <!-- Technical Skills -->
+            <div class="skills-box">
+                <h3>Technical Skills</h3>
+
+                <div class="skills-container">
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-html5"></i>
+                        <h4>HTML5</h4>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <h4>CSS3</h4>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-js"></i>
+                        <h4>JavaScript</h4>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-react"></i>
+                        <h4>React</h4>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <h4>Bootstrap</h4>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-code"></i>
+                        <h4>jQuery</h4>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-python"></i>
+                        <h4>Python</h4>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-database"></i>
+                        <h4>SQL</h4>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-git-alt"></i>
+                        <h4>Git</h4>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-brands fa-github"></i>
+                        <h4>GitHub</h4>
+                    </div>
+
+                    <div class="skill-card">
+                        <i class="fa-solid fa-server"></i>
+                        <h4>Django</h4>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="language-box">
+                <h3>Languages Known</h3>
+
+                <div class="language-item">
+                    <div class="language-title">
+                        <span>English</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width:90%"></div>
+                    </div>
+                </div>
+
+                <div class="language-item">
+                    <div class="language-title">
+                        <span>Malayalam</span>
+                        <span>100%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width:100%"></div>
+                    </div>
+                </div>
+
+                <div class="language-item">
+                    <div class="language-title">
+                        <span>Tamil</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width:75%"></div>
+                    </div>
+                </div>
+
+                <div class="language-item">
+                    <div class="language-title">
+                        <span>Hindi</span>
+                        <span>60%</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress" style="width:60%"></div>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
 
     </section>
@@ -88,173 +208,194 @@
                 <div class="service-info">
                     <i class="fa-brands fa-figma"></i>
                     <h4>UI & UX</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quasi rerum eaque modi eligendi in
-                        exercitationem consectetur provident debitis dignissimos incidunt, officiis nam, perferendis
-                        reprehenderit temporibus labore at, amet accusamus.</p>
-
+                    <p>I design clean, intuitive, and user-centered interfaces that enhance usability and deliver
+                        engaging digital experiences. Every design is crafted to balance aesthetics with
+                        functionality.
+                    </p>
                 </div>
             </div>
             <div class="service-box">
                 <div class="service-info">
                     <i class="fa-solid fa-code"></i>
                     <h4>Frontend</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quasi rerum eaque modi eligendi in
-                        exercitationem consectetur provident debitis dignissimos incidunt, officiis nam, perferendis
-                        reprehenderit temporibus labore at, amet accusamus.</p>
-
+                    <p>I build modern, responsive, and user-friendly web interfaces using the latest technologies. My
+                        focus is on creating fast, accessible, and visually engaging experiences that work seamlessly
+                        across all devices.</p>
                 </div>
             </div>
             <div class="service-box">
                 <div class="service-info">
                     <i class="fa-solid fa-database"></i>
                     <h4>Backend</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed quasi rerum eaque modi eligendi in
-                        exercitationem consectetur provident debitis dignissimos incidunt, officiis nam, perferendis
-                        reprehenderit temporibus labore at, amet accusamus.</p>
-
+                    <p>I develop secure, scalable, and high-performance backend solutions with robust APIs, efficient
+                        databases, and reliable server-side architecture to power modern web applications.</p>
                 </div>
             </div>
         </div>
-
     </section>
-    <section class=" projects" id="projects1">
+
+    <section class="projects" id="projects1">
         <h2 class="heading">Projects</h2>
         <div class="project-box">
             <div class="content">
                 <div class="project-card">
-
-                    <img src="digital_marketing.jpg" alt="">
+                    <img src="cardflipGame.png" alt="Screenshot of the Card Flip Memory Game">
                     <h3>Card Flip Memory Game</h3>
-                    <p>A fun and interactive memory card game built using HTML, CSS, and JavaScript. Players flip cards to find matching pairs while improving memory and concentration. Features smooth animations, responsive design, and engaging gameplay.
-</p>
-                    <div class="btn"><a href="https://github.com/Sajeeshalexandar/myProjects/blob/SajeeshAlexandar/CardFlipGame.html">Review</a></div>
+                    <p>A fun and interactive memory card game built using HTML, CSS, and JavaScript. Players flip
+                        cards to find matching pairs while improving memory and concentration. Features smooth
+                        animations, responsive design, and engaging gameplay.
+                    </p>
+                    <div class="btn"><a
+                            href="https://github.com/Sajeeshalexandar/myProjects/blob/SajeeshAlexandar/CardFlipGame.html">Review</a>
+                    </div>
                 </div>
-
             </div>
+
             <div class="content">
                 <div class="project-card">
-
-                <img src="web_develop.jpg" alt="">
-                <h3>Interactive Quiz Application</h3>
-                <p>A responsive quiz application developed with HTML, CSS, and JavaScript. It presents multiple-choice questions, tracks scores in real time, provides instant feedback, and delivers the final result after completion.
-</p>
-                <div class="btn"><a href="https://github.com/Sajeeshalexandar/myProjects/blob/SajeeshAlexandar/QuizApp.html">Review</a></div>
-                    
+                    <img src="QuizzApp.png" alt="Screenshot of the Interactive Quiz Application">
+                    <h3>Interactive Quiz Application</h3>
+                    <p>A responsive quiz application developed with HTML, CSS, and JavaScript. It presents
+                        multiple-choice questions, tracks scores in real time, provides instant feedback, and
+                        delivers the final result after completion.
+                    </p>
+                    <div class="btn"><a
+                            href="https://github.com/Sajeeshalexandar/myProjects/blob/SajeeshAlexandar/QuizApp.html">Review</a>
+                    </div>
+                </div>
             </div>
 
-            </div>
             <div class="content">
-
-                 <div class="project-card">
-                <img src="cloud_services.jpg" alt="">
-                <h3>Dynamic ID Card Generator</h3>
-                <p>A web application that generates professional-looking ID cards using user input. Built with HTML, CSS, JavaScript, and jQuery, it allows users to enter personal details and instantly preview a customized ID card.</p>
-                <div class="btn"><a href="https://github.com/Sajeeshalexandar/myProjects/blob/SajeeshAlexandar/jQueryIDcard.html">Review</a></div>
+                <div class="project-card">
+                    <img src="dynamicIdCard.png" alt="Screenshot of the Dynamic ID Card Generator">
+                    <h3>Dynamic ID Card Generator</h3>
+                    <p>A web application that generates professional-looking ID cards using user input. Built with
+                        HTML, CSS, JavaScript, and jQuery, it allows users to enter personal details and instantly
+                        preview a customized ID card.</p>
+                    <div class="btn"><a
+                            href="https://github.com/Sajeeshalexandar/myProjects/blob/SajeeshAlexandar/jQueryIDcard.html">Review</a>
+                    </div>
+                </div>
             </div>
 
-            </div>
-           <div class="content">
-            <div class="project-card">
-                <img src="web_develop.jpg" alt="">
-                <h3>Balloon Pop Arcade Game</h3>
-                <p>A simple and entertaining browser game where players pop balloons to earn points before time runs out. Developed using HTML, CSS, and JavaScript with smooth animations and score tracking.</p>
-                <div class="btn"><a href="https://github.com/Sajeeshalexandar/myProjects/blob/SajeeshAlexandar/popBaloonGame.html">Review</a></div>
-            </div>
-
-           </div>
-
-           <div class="content">
-             <div class="project-card">
-                <img src="digital_marketing.jpg" alt="">
-                <h3>Todo List Manager</h3>
-                <p>A clean and user-friendly task management application built with HTML, CSS, and JavaScript. Users can add, edit, delete, and organize daily tasks, making productivity simple and efficient.
-</p>
-                <div class="btn"><a href="https://github.com/Sajeeshalexandar/myProjects/blob/SajeeshAlexandar/todoList.html">Review</a></div>
-            </div>
-           </div>
-            
-           <div class="content">
-
-            <div class="project-card">
-                <img src="graphic_design.jpg" alt="">
-                <h3>PetHub – Pet Shop Website</h3>
-                <p>A modern React-based pet shop website featuring an attractive user interface for browsing pets and pet products. Designed with reusable React components, responsive layouts, and a clean shopping experience.</p>
-                 <div class="btn"><a href="https://github.com/Sajeeshalexandar/ReactProjects/tree/master/src/PetHub">Review</a></div>
+            <div class="content">
+                <div class="project-card">
+                    <img src="BaloonPop.png" alt="Screenshot of the Balloon Pop Arcade Game">
+                    <h3>Balloon Pop Arcade Game</h3>
+                    <p>A simple and entertaining browser game where players pop balloons to earn points before time
+                        runs out. Developed using HTML, CSS, and JavaScript with smooth animations and score
+                        tracking.</p>
+                    <div class="btn"><a
+                            href="https://github.com/Sajeeshalexandar/myProjects/blob/SajeeshAlexandar/popBaloonGame.html">Review</a>
+                    </div>
+                </div>
             </div>
 
-           </div>
-            
+            <div class="content">
+                <div class="project-card">
+                    <img src="TodoApp.png" alt="Screenshot of the Todo List Manager">
+                    <h3>Todo List Manager</h3>
+                    <p>A clean and user-friendly task management application built with HTML, CSS, and JavaScript.
+                        Users can add, edit, delete, and organize daily tasks, making productivity simple and
+                        efficient.
+                    </p>
+                    <div class="btn"><a
+                            href="https://github.com/Sajeeshalexandar/myProjects/blob/SajeeshAlexandar/todoList.html">Review</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="content">
+                <div class="project-card">
+                    <img src="petApp.png" alt="Screenshot of the PetHub pet shop website">
+                    <h3>PetHub – Pet Shop Website</h3>
+                    <p>A modern React-based pet shop website featuring an attractive user interface for browsing pets
+                        and pet products. Designed with reusable React components, responsive layouts, and a clean
+                        shopping experience.</p>
+                    <div class="btn"><a
+                            href="https://github.com/Sajeeshalexandar/ReactProjects/tree/master/src/PetHub">Review</a>
+                    </div>
+                </div>
+            </div>
 
         </div>
-
     </section>
 
     <section class="contact" id="contact1">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="#">
+        <form action="#" method="POST">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" name="email" id="" placeholder="Email">
-                <input type="number" name="number" id="" placeholder="Phone Number">
-                <input type="text" placeholder="Subject">
+                <input type="text" name="fullname" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="tel" name="phone" placeholder="Phone Number" pattern="[0-9+\-\s]{7,15}">
+                <input type="text" name="subject" placeholder="Subject">
             </div>
             <div class="input-group-2">
-                <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+                <textarea name="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </div>
         </form>
     </section>
+
     <footer class="footer">
         <div class="social-icons">
-            <a href="https://github.com/Sajeeshalexandar" target="_blank">
+            <a href="https://github.com/Sajeeshalexandar" target="_blank" rel="noopener noreferrer"
+                aria-label="GitHub">
                 <i class="fa-brands fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/sajeesh-alexandar-s-a-1a057a30a" target="_blank">
+            <a href="https://www.linkedin.com/in/sajeesh-alexandar-s-a-1a057a30a" target="_blank"
+                rel="noopener noreferrer" aria-label="LinkedIn">
                 <i class="fa-brands fa-linkedin"></i>
             </a>
-            <a href="https://www.instagram.com/_zatrix_/" target="_blank">
+            <a href="https://www.instagram.com/_zatrix_/" target="_blank" rel="noopener noreferrer"
+                aria-label="Instagram">
                 <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="https://x.com/a_sajeesh69241" target="_blank">
+            <a href="https://x.com/a_sajeesh69241" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X">
                 <i class="fa-brands fa-twitter"></i>
             </a>
-
         </div>
         <ul class="list">
-            <li>
-                <a href="">FAQ</a>
-            </li>
-            <li>
-                <a href="#services1">Services</a>
-            </li>
-            <li>
-                <a href="#about1">About</a>
-            </li>
-            <li>
-                <a href="#projects1">Project</a>
-            </li>
-            <li>
-                <a href="#contact1">Contact</a>
-            </li>
+            <li><a href="#home">FAQ</a></li>
+            <li><a href="#services1">Services</a></li>
+            <li><a href="#about1">About</a></li>
+            <li><a href="#projects1">Project</a></li>
+            <li><a href="#contact1">Contact</a></li>
         </ul>
         <p class="location">
             TVM | Vellarada | Anappara
         </p>
         <p class="copyright">
-            @ Copyright | All Rights Reserved
+            &copy; Copyright | All Rights Reserved
         </p>
-
     </footer>
+
     <script>
-        let menuIcon = document.querySelector("#menu-bar");
-        let navbar = document.querySelector("#navbar1");
+        const menuIcon = document.querySelector("#menu-bar");
+        const navbar = document.querySelector("#navbar1");
 
-        menuIcon.onclick = () => {
+        function toggleMenu() {
             navbar.classList.toggle("active");
-            menuIcon.classList.toggle("fa-linkedin");
-
+            menuIcon.classList.toggle("fa-bars");
+            menuIcon.classList.toggle("fa-xmark");
         }
+
+        menuIcon.addEventListener("click", toggleMenu);
+        menuIcon.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                toggleMenu();
+            }
+        });
+
+        // Close the mobile menu after a nav link is clicked
+        document.querySelectorAll("#navbar1 a").forEach(link => {
+            link.addEventListener("click", () => {
+                navbar.classList.remove("active");
+                menuIcon.classList.remove("fa-xmark");
+                menuIcon.classList.add("fa-bars");
+            });
+        });
     </script>
 </body>
 
